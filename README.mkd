@@ -1,0 +1,15 @@
+Angular JS + Jasmine + Sinatra test sample
+
+    $ rspec
+    or
+    $ jasmine-headless-webkit
+    or
+    $ rake jasmine
+    and visit http://localhost:8888/
+
+1. write your page and scripts, download angular.js, put them public/
+2. $ jasmine init
+3. edit spec/javascripts/support/jasmine.yml to load angular-mocks.1.0.1.js
+4. make FooSpec.js, BarSpec.js, and so on
+5. run test command
+
